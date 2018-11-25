@@ -53,6 +53,10 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/cluster-health.h
 #### Manual build
 
 ```sh
+# Install dependencies
+apt update
+apt install git make gccgo-go
+
 # Building
 git clone https://github.com/tivrobo/zabbix-agent-extension-elasticsearch.git
 cd zabbix-agent-extension-elasticsearch
