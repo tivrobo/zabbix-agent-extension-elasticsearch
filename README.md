@@ -54,7 +54,7 @@ https://www.elastic.co/guide/en/elasticsearch/reference/current/cluster-health.h
 
 ```sh
 # Building
-git clone https://github.com/zarplata/zabbix-agent-extension-elasticsearch.git
+git clone https://github.com/tivrobo/zabbix-agent-extension-elasticsearch.git
 cd zabbix-agent-extension-elasticsearch
 make
 
@@ -68,7 +68,7 @@ make install
 #### Arch Linux package
 ```sh
 # Building
-git clone https://github.com/zarplata/zabbix-agent-extension-elasticsearch.git
+git clone https://github.com/tivrobo/zabbix-agent-extension-elasticsearch.git
 git checkout pkgbuild
 
 ./build.sh
