@@ -39,13 +39,13 @@ deps:
 
 install:
 	@echo Install
-	cp .out/${BINARYNAME} /usr/bin/${BINARYNAME}
-	cp zabbix-agent-extension-elasticsearch.conf /etc/zabbix/zabbix_agentd.conf.d/zabbix-agent-extension-elasticsearch.conf
+	cp .out/${BINARYNAME} /usr/sbin/${BINARYNAME}
+	cp zabbix-agent-extension-elasticsearch.conf /etc/zabbix/zabbix_agentd.d/zabbix-agent-extension-elasticsearch.conf
 	@echo Done
 
 remove:
 	@echo Remove
-	rm /usr/bin/${BINARYNAME}
-	rm /etc/zabbix/zabbix_agentd.conf.d/zabbix-agent-extension-elasticsearch.conf
+	rm /usr/sbin/${BINARYNAME}
+	rm /etc/zabbix/zabbix_agentd.d/zabbix-agent-extension-elasticsearch.conf
 	@echo Done
 
